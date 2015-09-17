@@ -126,6 +126,13 @@ var work = {
             'title' : 'Taproom/Brewery Worker',
             'duration' : 'June 2014 to Present',
             'descrition' : 'Pouring and sampling local craft beer on-site and at special events. Supporting local entrepreneurship and building a loyal customer base by being an ambassador for the Prairie brand. Assisting in brewing and bottling.'
+        },
+        {
+            'employer' : 'Anheuser-Busch Sales of Oklahoma',
+            'website' : 'http://anheuser-busch.com/',
+            'title' : 'Sales Representative',
+            'duration' : 'November 2009 to May 2014',
+            'descrition' : 'Maximized sales of Anheuser-Busch products by increasing distribution, shelf space, displays, draught taps, securing price points, introducing new brands and packages, promotional activations, and merchandising. Maintained on-premise and off-premise retail structured sales calls to meet sales objectives and customer needs. Ensured product freshness standards, and sustained proper inventory levels. Prepared reports such as expenses and itineraries. Collected Anheuser-Busch and competitive market data. Worked with accounting and logistics departments to resolve customer service issues.'
         }
     ]
 };
