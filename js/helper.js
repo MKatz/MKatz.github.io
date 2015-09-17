@@ -15,13 +15,13 @@ replace the %data% placeholder text you see in them.
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr/>';
 
-var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="col-md-3 flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="col-md-3 flex-item"><span class="orange-text">email</span><span class="white-text">%data%</span></li>';
+var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li></div>';
+var HTMLmobile = '<div class="col-md-3"><li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li></div>';
+var HTMLemail = '<div class="col-md-3"><li class="flex-item"><span class="orange-text">email</span><span class="white-text">%data%</span></li></div>';
 var HTMLtwitter = '<li class="flex-item"><span class="orange-text">twitter</span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="col-md-3 flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<div class="col-md-3"><li class="flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="col-md-3 flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span></li>';
+var HTMLlocation = '<div class="col-md-3"><li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span></li></div>';
 
 var HTMLbioPic = '<img src="%data%" class="img-responsive biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
