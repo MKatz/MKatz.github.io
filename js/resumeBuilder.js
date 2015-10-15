@@ -14,7 +14,7 @@ var bio = {
     "mobile" : "785.691.9750",
     "location": "Tulsa, Oklahoma"
      },
-    "skills" : ['HTML', 'CSS', 'JavaScript', 'jQuerey', 'AngularJS', 'Bootstrap'],
+    "skills" : ['HTML', 'CSS', 'JavaScript', 'jQuerey', 'Bootstrap'],
     "picture" : "images/headshot.jpg"
 };
 
@@ -107,11 +107,25 @@ education.display = function() {
 var work = {
     'jobs' : [
         {
-            'employer' : 'Shipzen',
+            'employer' : 'Prairie Artisan Ales',
+            'website' : 'http://prairieales.com/',
+            'title' : 'Taproom/Brewery Worker',
+            'duration' : 'June 2014 to Present',
+            'descrition' : 'Pouring and sampling local craft beer on-site and at special events. Supporting local entrepreneurship and building a loyal customer base by being an ambassador for the Prairie brand. Assisting in brewing and bottling.'
+        },
+        {
+            'employer' : 'Clout Solutions',
             'website' : 'http://cloutship.com/',
             'title' : "Front-End Developer",
-            'duration' : 'August 2015 to Present',
-            'descrition' : 'Developing interactive websites and applications with HTML, CSS, JavaScript, AngularJS, and jQuery. Creating both seamless user interfaces, and effortless management systems for clients.'
+            'duration' : 'August 2015 to October 2015',
+            'descrition' : 'Building new user facing features for inventory and sales management web applications. Optimizing applications for speed, scalability, and user friendliness.  Working with clients to identify pain points, and finding effective solutions to application issues.'
+        },
+        {
+            'employer' : 'Blocker Technologies',
+            'website' : '#',
+            'title' : "Front-End Developer",
+            'duration' : 'May 2015 to August 2015',
+            'descrition' : 'Developing interactive websites with HTML, CSS, JavaScript, and jQuery. Creating both seamless user interfaces, and effortless content management systems for clients.'
         },
         {
             'employer' : 'Uber',
@@ -121,17 +135,17 @@ var work = {
             'descrition' : 'Delivering high-quality service via email support helping and educating both riders and drivers. Building loyalty among new users and getting early adopters to fall in love with Uber all over again by taking upset riders and drivers, and turning them into our strongest evangelists with unique and effective solutions.'
         },
         {
-            'employer' : 'Prairie Artisan Ales',
-            'website' : 'http://prairieales.com/',
-            'title' : 'Taproom/Brewery Worker',
-            'duration' : 'June 2014 to Present',
-            'descrition' : 'Pouring and sampling local craft beer on-site and at special events. Supporting local entrepreneurship and building a loyal customer base by being an ambassador for the Prairie brand. Assisting in brewing and bottling.'
-        },
-        {
             'employer' : 'Anheuser-Busch Sales of Oklahoma',
             'website' : 'http://anheuser-busch.com/',
             'title' : 'Sales Representative',
             'duration' : 'November 2009 to May 2014',
+            'descrition' : 'Maximized sales of Anheuser-Busch products by increasing distribution, shelf space, displays, draught taps, securing price points, introducing new brands and packages, promotional activations, and merchandising. Maintained on-premise and off-premise retail structured sales calls to meet sales objectives and customer needs. Ensured product freshness standards, and sustained proper inventory levels. Prepared reports such as expenses and itineraries. Collected Anheuser-Busch and competitive market data. Worked with accounting and logistics departments to resolve customer service issues.'
+        },
+        {
+            'employer' : 'Enterprise Holdings',
+            'website' : 'http://www.enterprise.com/car_rental/home.do',
+            'title' : 'Management Assistant',
+            'duration' : 'September 2008 to October 209',
             'descrition' : 'Maximized sales of Anheuser-Busch products by increasing distribution, shelf space, displays, draught taps, securing price points, introducing new brands and packages, promotional activations, and merchandising. Maintained on-premise and off-premise retail structured sales calls to meet sales objectives and customer needs. Ensured product freshness standards, and sustained proper inventory levels. Prepared reports such as expenses and itineraries. Collected Anheuser-Busch and competitive market data. Worked with accounting and logistics departments to resolve customer service issues.'
         }
     ]
@@ -161,11 +175,46 @@ work.display = function () {
 var projects = {
     'projects' : [
         {
-            'title' : 'Portfolio',
+            'title' : 'Shipzen',
             'dates' : 2015,
-            'descrition' : 'This is the project descrition',
-            'url' : "Lorem ipsum",
-            'images' : ['images/fry.jpg']
+            'descrition' : 'Landing page for an order fulfillment application. Designed to build a solid customer base for application launch.',
+            'url' : "#",
+            'images' : ['images/shipzen.png']
+        },
+        {
+            'title' : 'Clout Solutions',
+            'dates' : 2015,
+            'descrition' : 'Built user facing features for web based applications using the TradeGecko API. Created intuitive, quick, and scalable user interfaces using bootstrap templates.',
+            'url' : "http://cloutship.com/",
+            'images' : ['']
+        },
+        {
+            'title' : 'Frogger Clone',
+            'dates' : 2015,
+            'descrition' : 'Built a clone of the classic arcade game frogger using Object Oriented JavaScript, and a game looping engine.',
+            'url' : 'https://github.com/MKatz/udacity-froggerClone',
+            'images' : ['images/frogger.png']
+        },
+        {
+            'title' : 'Website Optimization',
+            'dates' : 2015,
+            'descrition' : 'Optimizing the critical rendering path of HTML, CSS, and JavaScript components for speed and performance.',
+            'url' : 'https://github.com/MKatz/udacity-optimization',
+            'images' : ['']
+        },
+        {
+            'title' : 'Feed Reader Testing',
+            'dates' : 2015,
+            'descrition' : 'Wrote a number of tests using against pre-existing code using Jasmine to test the undelying business logic of the application as well as the event handling and DOM manipulation',
+            'url' : 'https://github.com/MKatz/udacity-feedreader',
+            'images' : ['']
+        },
+        {
+            'title' : 'Well Checked',
+            'dates' : 2015,
+            'descrition' : 'An interactive website with a seamless user interface, and an effortless content management system for clients.',
+            'url' : '#',
+            'images' : ['images/wellchecked.png']
         }
     ]
 };
@@ -175,6 +224,7 @@ projects.display = function () {
         $('#projects').append(HTMLprojectStart);
 
         var formattedTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title);
+        formattedTitle = formattedTitle.replace("#", projects.projects[project].url);
         $('.project-entry:last').append(formattedTitle);
 
         var formattedDates = HTMLprojectDates.replace('%data%', projects.projects[project].dates);
