@@ -145,8 +145,8 @@ var work = {
             'employer' : 'Enterprise Holdings',
             'website' : 'http://www.enterprise.com/car_rental/home.do',
             'title' : 'Management Assistant',
-            'duration' : 'September 2008 to October 209',
-            'descrition' : 'Maximized sales of Anheuser-Busch products by increasing distribution, shelf space, displays, draught taps, securing price points, introducing new brands and packages, promotional activations, and merchandising. Maintained on-premise and off-premise retail structured sales calls to meet sales objectives and customer needs. Ensured product freshness standards, and sustained proper inventory levels. Prepared reports such as expenses and itineraries. Collected Anheuser-Busch and competitive market data. Worked with accounting and logistics departments to resolve customer service issues.'
+            'duration' : 'September 2008 to October 2009',
+            'descrition' : 'Operated all aspects of the business including customer service, sales, marketing, financials, and logistics, while maximizing profits and motivating a team of professionals.'
         }
     ]
 };
@@ -205,7 +205,7 @@ var projects = {
         {
             'title' : 'Feed Reader Testing',
             'dates' : 2015,
-            'descrition' : 'Wrote a number of tests using against pre-existing code using Jasmine to test the undelying business logic of the application as well as the event handling and DOM manipulation',
+            'descrition' : 'Wrote a number of tests against pre-existing code using Jasmine to test the undelying business logic of the application as well as the event handling and DOM manipulation',
             'url' : 'https://github.com/MKatz/udacity-feedreader',
             'images' : ['']
         },
