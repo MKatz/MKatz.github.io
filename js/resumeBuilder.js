@@ -175,6 +175,13 @@ work.display = function () {
 var projects = {
     'projects' : [
         {
+            'title' : 'Neighborhood Map',
+            'dates' : 2015,
+            'descrition' : 'A single-page web application using Google Maps and Instgram APIs showing brunch joints on Brookside in Tulsa, OK.',
+            'url' : "https://github.com/MKatz/udacity-neighborhoodMap",
+            'images' : ['images/map.png']
+        },
+        {
             'title' : 'Shipzen',
             'dates' : 2015,
             'descrition' : 'Landing page for an order fulfillment application. Designed to build a solid customer base for application launch.',
