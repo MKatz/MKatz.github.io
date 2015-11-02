@@ -177,7 +177,7 @@ var projects = {
         {
             'title' : 'Neighborhood Map',
             'dates' : 2015,
-            'descrition' : 'A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of on Brookside in Tulsa, OK. Users can search all included brunch joints and, when selected, additional information about a landmark is presented from the Instagram API.',
+            'descrition' : 'A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest on Brookside in Tulsa, OK. Users can search all included brunch joints and, when selected, additional information about a landmark is presented from the Instagram API.',
             'url' : "https://github.com/MKatz/udacity-neighborhoodMap",
             'images' : ['images/map.png']
         },
