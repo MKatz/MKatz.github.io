@@ -177,7 +177,7 @@ var projects = {
         {
             'title' : 'Neighborhood Map',
             'dates' : 2015,
-            'descrition' : 'A single-page web application using Google Maps and Instgram APIs showing brunch joints on Brookside in Tulsa, OK.',
+            'descrition' : 'A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of on Brookside in Tulsa, OK. Users can search all included brunch joints and, when selected, additional information about a landmark is presented from the Instagram API.',
             'url' : "https://github.com/MKatz/udacity-neighborhoodMap",
             'images' : ['images/map.png']
         },
@@ -198,21 +198,21 @@ var projects = {
         {
             'title' : 'Frogger Clone',
             'dates' : 2015,
-            'descrition' : 'Built a clone of the classic arcade game frogger using Object Oriented JavaScript, and a game looping engine.',
+            'descrition' : 'An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.',
             'url' : 'https://github.com/MKatz/udacity-froggerClone',
             'images' : ['images/frogger.png']
         },
         {
             'title' : 'Website Optimization',
             'dates' : 2015,
-            'descrition' : 'Optimizing the critical rendering path of HTML, CSS, and JavaScript components for speed and performance.',
+            'descrition' : "Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.",
             'url' : 'https://github.com/MKatz/udacity-optimization',
             'images' : ['']
         },
         {
             'title' : 'Feed Reader Testing',
             'dates' : 2015,
-            'descrition' : 'Wrote a number of tests against pre-existing code using Jasmine to test the undelying business logic of the application as well as the event handling and DOM manipulation',
+            'descrition' : "Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API.",
             'url' : 'https://github.com/MKatz/udacity-feedreader',
             'images' : ['']
         },
