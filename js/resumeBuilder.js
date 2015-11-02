@@ -220,7 +220,7 @@ var projects = {
             'title' : 'Well Checked',
             'dates' : 2015,
             'descrition' : 'An interactive website with a seamless user interface, and an effortless content management system for clients.',
-            'url' : '#',
+            'url' : 'https://github.com/MKatz/wellChecked',
             'images' : ['images/wellchecked.png']
         }
     ]
