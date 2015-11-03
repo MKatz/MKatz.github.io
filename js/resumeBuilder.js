@@ -193,7 +193,7 @@ var projects = {
             'dates' : 2015,
             'descrition' : 'Built user facing features for web based applications using the TradeGecko API. Created intuitive, quick, and scalable user interfaces using bootstrap templates.',
             'url' : "http://cloutship.com/",
-            'images' : ['']
+            'images' : ['images/ipadiphoneMock.jpg']
         },
         {
             'title' : 'Frogger Clone',
